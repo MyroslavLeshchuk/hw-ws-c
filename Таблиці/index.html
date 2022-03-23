@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиця</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <style>
+                div{
+                    color: blue;
+                    font-size: larger;
+                }
+                table, th, td {
+                    border-style: solid;
+                    border-color: rgb(3, 3, 3);
+                    border-width: 1px;
+                    background-color: rgb(232, 250, 244); 
+                    width: auto;                  
+                }
+            </style>
+            <caption style="caption-side: top;"><div>Приклад таблиці</div></caption>          
+              <tr>
+                <th>Назва</th>
+                <th colspan="2" >Виробництво</th>
+                <th>Сумма</th>
+            </tr>
+       </thead>
+        <tbody>
+            
+          
+            <tr>
+                <td colspan="2">1</td>
+                <td rowspan="2">1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="3">1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="2" colspan="2">1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>    
+</body>
+</html>

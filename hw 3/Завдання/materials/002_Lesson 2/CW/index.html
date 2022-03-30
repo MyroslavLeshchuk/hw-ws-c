@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 1.3rem;
+        }
+        pre{
+            background: silver;
+
+        }
+        .green{
+            color: green;
+        }
+        li:nth-child(odd){
+         background: #e1e6e5;
+         margin: 1rem 0;
+        }
+    </style>
+    <script>
+        window.addEventListener("load",()=>{
+            document.getElementsByTagName("ol")[0].addEventListener("dblclick", (e)=>{
+                e.target.style.backgroundColor = "green"
+                e.target.style.opacity = ".3"
+                e.target.style.fontSize = ".8rem"
+            })
+        const arr = new Array(50);
+
+        arr.forEach((e,i,a)=>{
+           arr[i] = 5
+        })
+        
+        })
+    </script>
+</head>
+<body>
+
+    <ol>
+        <li>Выведите Картинку на страницу скачанную с интернета</li>
+        <li>Создайте страницу о планетах. Пример в папке CW Каждая картинка должна ссылаться на википедию с описанием планеты</li>
+        <li>Создайте таблицу по макету которій в папке CW</li>
+        <li>создайте упорядоченный список состоящий из 5 блюд, затем выведите этот список в обратном порядке</li>
+        <li>Создайте список и сделайте так, чтобы маркеров в списках не было.</li>
+        <li>Создайте таблицу на 3 строки по 3 ячейки, внутри каждой строки создайте отдельный вид списка, а внутри каждой ячеек напишите 1 ячейка теги 2-3шт, 2 ячейка 2-3 шт атрибуты, 3 ячейка Браузеры 2-3шт</li>
+    </ol>
+             
+  
+</body>
+</html>

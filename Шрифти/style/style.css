@@ -1,0 +1,24 @@
+html{
+    font-size: 20px;
+}
+    @font-face {
+        font-family: example1;
+        src: url(/Lobster-Regular.ttf);
+    }
+div { font-family: example1;
+    font-size: 2rem;
+}
+div:hover{
+   color: blue;
+   transition: all 1s;
+}
+div:active{
+    color: brown;
+    transition: all 5s;
+
+}
+[href*="Miroslav"] {font-size: 6rem}
+
+[title*="one"]{
+    color: blueviolet;
+}

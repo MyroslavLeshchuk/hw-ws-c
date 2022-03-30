@@ -1,0 +1,23 @@
+.div{
+    color: green;
+}
+.p{
+    color: blue;
+}
+.pbc {
+    background-color: black;
+}
+.div1{
+    width: 50%;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 40px;
+    margin:auto;
+    }
+.div2
+{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    display:inline-block;
+}

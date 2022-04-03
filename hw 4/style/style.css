@@ -1,0 +1,321 @@
+html {
+  font-size: 8px;
+  /* margin: auto; */
+}
+/* фон */
+.fon {
+  position: absolute;
+  width: 120rem;
+  height: 156rem;
+  border: 1px solid #201636;
+  background: #201636;
+  display: inline-block;
+}
+.elips2 {
+  width: 27.6rem;
+  height: 27.6rem;
+  position: absolute;
+  top: 27.7rem;
+  left: 21rem;
+  border: 2rem solid #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.fonim1 {
+  width: 76rem;
+  height: 48rem;
+  /* border: 1px solid #3da31e; */
+  margin-top: 15rem;
+  margin-left: 4rem;
+  display: inline-block;
+}
+/* Картинка 1 */
+.image1 {
+  width: 76rem;
+  height: 48rem;
+  position: absolute;
+}
+
+/* картинка2 */
+.image2 {
+  width: 43rem;
+  height: 20rem;
+  /* position: absolute; */
+  position: relative;
+  top: 32rem;
+  left: 11rem;
+}
+/* прямокутник тонування */
+.rectangle {
+  width: 60rem;
+  height: 12rem;
+  /* border: 1px solid #3da31e; */
+  position: relative;
+  top: 16rem;
+  left: 0rem;
+  background: linear-gradient(180deg, #211637 0%, rgba(34, 24, 57, 0) 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.image4 {
+  width: 18rem;
+  height: 7.5rem;
+  /* position: relative; */
+  position: absolute;
+  top: 44.8rem;
+  left: 10.9rem;
+  display: inline-block;
+}
+.image5 {
+  position: absolute;
+  top: 44.4rem;
+  left: 43.2rem;
+  width: 16.8rem;
+  height: 7rem;
+  /* border: 1px solid #3da31e; */
+  transform: matrix(-0.99, -0.17, -0.17, 0.99, 0, 0);
+}
+.elips1 {
+  position: absolute;
+  top: 33.4rem;
+  left: 25.8rem;
+  width: 17.8rem;
+  height: 17.8rem;
+  background: #ffffff;
+  box-shadow: 0rem 0rem 15.6rem #5b4787;
+  filter: blur(3rem);
+}
+.elips3 {
+  width: 29.8rem;
+  height: 29.8rem;
+  position: absolute;
+  top: 26.7rem;
+  left: 19.9rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.elips4 {
+  width: 33rem;
+  height: 33rem;
+  position: absolute;
+  top: 25rem;
+  left: 18.3rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.skyman {
+  height: 49rem;
+  width: 120rem;
+  position: absolute;
+  top: 61rem;
+  left: 0rem;
+}
+.rectangle2 {
+  position: absolute;
+  width: 120rem;
+  height: 12rem;
+  top: 61rem;
+  left: 0rem;
+  background: linear-gradient(180deg, #211637 0%, rgba(34, 24, 57, 0) 100%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.rectangle3 {
+  position: absolute;
+  width: 120rem;
+  height: 12rem;
+  top: 98rem;
+  left: 0rem;
+  background: linear-gradient(180deg, #211637 18.23%, rgba(34, 24, 57, 0) 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.znakputanya {
+  height: 33.5rem;
+  width: 35.8rem;
+  position: absolute;
+  top: 94rem;
+  left: 4rem;
+}
+.man {
+  width: 31rem;
+  height: 46rem;
+  position: absolute;
+  top: 98.8rem;
+  left: 20.8rem;
+}
+.rectangle4 {
+  position: absolute;
+  width: 34.2rem;
+  height: 15rem;
+  top: 130rem;
+  left: 19rem;
+  background: linear-gradient(180deg, #211637 29.83%, rgba(34, 24, 57, 0) 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+/* рамка для коучінг програми */
+.bforkp {
+  width: 41rem;
+  height: 7rem;
+  position: absolute;
+  top: 27rem;
+  left: 58rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* рамка для тексту */
+.bfort1 {
+  width: 41rem;
+  height: 7rem;
+  position: absolute;
+  top: 34rem;
+  left: 58rem;
+  text-align: justify;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+}
+/* рамка під текст */
+.bfort2 {
+  position: absolute;
+  width: 42rem;
+  height: 3.3rem;
+  top: 42rem;
+  left: 58rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #211637;
+  padding: 1rem 1rem 0rem 1rem;
+}
+/* ракета картинка */
+.image6 {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 48rem;
+  left: 58rem;
+}
+/* текст початку занять */
+.startl {
+  width: 11rem;
+  height: 2rem;
+  position: absolute;
+  top: 48rem;
+  left: 66rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* кнопка для запису */
+.button1 {
+  width: 16rem;
+  height: 3rem;
+  position: absolute;
+  top: 48rem;
+  left: 80rem;
+  border-radius: 0.2rem;
+  background: #f09f0c;
+  box-shadow: 0.3rem 0.3rem 1.3rem #7d5103, -0.3rem -0.3rem 1.3rem #7d5103;
+  text-align: center;
+  padding-top: 1.1rem;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #080808;
+}
+a:hover {
+  color: red;
+  font-size: 1.4rem;
+  transition: all 1s;
+  background-color: greenyellow;
+}
+/* дів для трьох текстів */
+.text3div {
+  width: 73rem;
+  height: 15rem;
+  position: absolute;
+  top: 77rem;
+  left: 27rem;
+}
+.text3div > div {
+  width: 22rem;
+  height: 13rem;
+  float: left;
+  margin-right: 1.8rem;
+  overflow: hidden;
+  text-align: center;
+}
+.text3div > div > span {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  /* text-align:center; */
+}
+/* рамка для заголовку */
+.bforz {
+  width: 73rem;
+  height: 8rem;
+  position: absolute;
+  top: 91rem;
+  left: 26rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  text-align: center;
+  color: white;
+}
+.bforz span b {
+  color: #f09f0c;
+}
+div.bforz span:nth-child(3) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+}
+.texli {
+  width: 36rem;
+  position: relative;
+  top: 103rem;
+  left: 61rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #ffffff;
+  display: inline-block;
+}
+li::before {
+  content: "";
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-image: url(/img/2.png);
+  background-size: 2.5rem 2.5rem;
+  margin-right: 1rem;
+}

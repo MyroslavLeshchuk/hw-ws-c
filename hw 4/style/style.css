@@ -318,7 +318,7 @@ li::before {
   display: inline-block;
   width: 2rem;
   height: 2rem;
-  background-image: url(/img/2.png);
+  background-image: url(https://myroslavleshchuk.github.io/hw-ws-c/hw%204/img/2.png);
   background-size: 2.5rem 2.5rem;
   margin-right: 1rem;
 }

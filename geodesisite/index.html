@@ -4,26 +4,43 @@
     <meta charset="UTF-8" />
     <title>Геохаб</title>
     <link rel="stylesheet" href="./styles/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <div class="hcontainer"> 
+      <div class="hcontainer">
         <img class="elcontainer1" src="./img/002_header.jpg" alt="1" />
         <span class="elcontainer2">Геохаб</span>
-        <div class="dsearch"><label for="search">Пошук :</label>
-        <input class="elcontainer3input" type="text" id="search" placeholder="Я шукаю...">  </div>  
-        <div class="dsearch" ><input class="binput" type="button" value="Search"></div>    
-        <div class="mleft1"><input type="button" value="Увійти"></div>
-        <div class="mleft2"><input type="button" value="Реєстрація"></div>
+        <div class="dsearch">
+          <label for="search">Пошук :</label>
+          <input
+            class="elcontainer3input"
+            type="text"
+            id="search"
+            placeholder="Я шукаю..."
+          />
+        </div>
+        <div class="dsearch">
+          <input class="binput" type="button" value="Search" />
+        </div>
+        <div class="mleft1"><input type="button" value="Увійти" /></div>
+        <div class="mleft2"><input type="button" value="Реєстрація" /></div>
       </div>
     </header>
     <main>
       <div class="marquee"><span>Слава Україні! Героям Слава!</span></div>
+      <!-- Все що стосується Бургер меню -->
       <div class="bfburger hamburger-menu">
-        <input type="checkbox" id="menu_toggle"/>
-        <label class="menu_btn"  for="menu_toggle">
+        <input type="checkbox" id="menu_toggle" />
+        <label class="menu_btn" for="menu_toggle">
           <span></span>
         </label>
         <ul class="menu_box">
@@ -38,13 +55,43 @@
           <li><a class="menu_item" href="#">Програми</a></li>
           <li><a class="menu_item" href="#">Комплектуючі</a></li>
           <li><a class="menu_item" href="#">Послуги</a></li>
-
         </ul>
-        
-        
+        <div class="imgwraper">
+          <img src="./img/009_strilka.png" alt="1">
+        </div>
       </div>
-
-
+      <!-- флекси нижче бургер меню -->
+      <div class="containerimage">
+        <div></div>
+        <div></div>
+        <div class="elementu_kontainer">
+          <div class="img_el">
+            <img src="./img/004_korzina.png" alt="1" />
+            <span class="display_id">Купляйте у нас
+              <hr>
+              <span>10 років на ринку України</span>
+            </span>
+          </div>
+        </div>
+        <div class="elementu_kontainer">
+          <div class="img_el">
+            <img src="./img/005_delivery.png" alt="1" />
+            <span class="display_id">Швидка доставка
+              <hr>
+              <span>Доставка в будь-яке місто</span>
+            </span>
+          </div>
+        </div>
+        <div class="elementu_kontainer">
+          <div class="img_el">
+            <img src="./img/006_akcii.gif" alt="1" />
+            <span class="display_id">Программа
+              <hr>
+              <span>Різноманітні знижки та бонуси</span>
+            </span>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>

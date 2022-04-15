@@ -128,18 +128,18 @@ body {
 .menu_btn > span::before,
 .menu_btn > span::after {
   display: block;
-  position:absolute;
+  position: absolute;
   top: 12px;
   width: 100%;
   height: 2px;
   background-color: #000000;
 }
 .menu_btn > span::before {
-  content: '';
+  content: "";
   top: -8px;
 }
 .menu_btn > span::after {
-  content: '';
+  content: "";
   top: 8px;
 }
 /* контейнер меню */
@@ -160,7 +160,7 @@ body {
   display: block;
   padding: 6px 24px;
   color: rgb(0, 0, 0);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   border-bottom: 1px solid #ccf1f1;
 }
@@ -177,10 +177,88 @@ body {
 #menu_toggle:checked ~ .menu_btn > span::after {
   top: 0;
   transform: rotate(90deg);
-  
 }
 #menu_toggle:checked ~ .menu_box {
   visibility: visible;
   left: 0;
-  transition: all 2s;
 }
+
+
+/* Все що стосується картинок  */
+/* контейнер для картинок */
+.containerimage {
+  display: grid;
+  grid-template-columns: 320px 1fr 1fr 1fr;
+  grid-template-rows: 200px 100px;
+  margin: 0 auto;
+  width: 90%;
+  gap: 25px;
+}
+.containerimage div {
+  /* border: 1px solid red; */
+  /* text-align: center; */
+  line-height: auto;
+}
+.containerimage div:nth-child(1) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.containerimage div:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.containerimage div:nth-child(2) {
+  background-image: url(/img/003_we_are_work.jpg);
+  background-size: cover;
+}
+
+/* Блок Купляйте в нас  */
+.elementu_kontainer {
+  border: 1px solid rgba(183, 199, 190, 0.466);
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(71, 180, 118, 0.466),
+    -2px -2px 5px rgba(71, 180, 118, 0.466);
+ 
+}
+.img_el {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 16px;
+}
+.display_id{
+  position: absolute;
+  top: 0px; 
+  left: 65px;
+  width: 140px;
+  height: 50px;
+  /* border: 1px solid red; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.display_id span{
+  font-weight: 300;
+  font-size: 13px;
+}
+/* для стрілки */
+.forstrilka{
+  width: 300px;
+  height: 300px;
+  transform: rotate(-10deg);
+  /* border: 1px solid rebeccapurple; */
+  /* position: relative; */
+}
+.imgwraper{
+  position:relative;
+  top: -450px;
+  
+}
+.imgwraper>img {
+  width: 300px;
+  height: 300px;
+  transform: rotate(-10deg);
+}
+#menu_toggle:checked ~ .imgwraper {
+  visibility:hidden;
+  }

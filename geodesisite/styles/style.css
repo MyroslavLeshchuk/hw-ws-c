@@ -262,3 +262,6 @@ body {
 #menu_toggle:checked ~ .imgwraper {
   visibility:hidden;
   }
+.visib_hidden{
+  visibility: hidden;
+}

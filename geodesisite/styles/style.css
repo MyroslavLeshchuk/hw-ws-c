@@ -183,16 +183,16 @@ body {
   left: 0;
 }
 
-
 /* Все що стосується картинок  */
 /* контейнер для картинок */
 .containerimage {
   display: grid;
   grid-template-columns: 320px 1fr 1fr 1fr;
-  grid-template-rows: 200px 100px;
+  grid-template-rows: 200px 100px 110px;
   margin: 0 auto;
   width: 90%;
   gap: 25px;
+  /* grid-auto-rows: 3fr; */
 }
 .containerimage div {
   /* border: 1px solid red; */
@@ -201,7 +201,7 @@ body {
 }
 .containerimage div:nth-child(1) {
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 4;
 }
 .containerimage div:nth-child(2) {
   grid-column-start: 2;
@@ -211,7 +211,10 @@ body {
   background-image: url(https://avers.ua/storage/news/big/8jrChJjSAPYyBjXlXTU31goAoKUzLZeLzNjUnwXf.jpg);
   background-size: cover;
 }
-
+.containerimage div:nth-child(6){
+  grid-column:2/5;
+  grid-row: 3;
+}
 /* Блок Купляйте в нас  */
 .elementu_kontainer {
   border: 1px solid rgba(183, 199, 190, 0.466);
@@ -219,50 +222,83 @@ body {
   background-color: white;
   box-shadow: 2px 2px 5px rgba(71, 180, 118, 0.466),
     -2px -2px 5px rgba(71, 180, 118, 0.466);
- 
 }
 .img_el {
   position: relative;
   margin-left: 10px;
   margin-top: 16px;
 }
-.display_id{
+.display_id {
   position: absolute;
-  top: 0px; 
+  top: 0px;
   left: 65px;
   width: 140px;
   height: 50px;
   /* border: 1px solid red; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-align: center;
 }
-.display_id span{
+.display_id span {
   font-weight: 300;
   font-size: 13px;
 }
 /* для стрілки */
-.forstrilka{
+.forstrilka {
   width: 300px;
   height: 300px;
   transform: rotate(-10deg);
   /* border: 1px solid rebeccapurple; */
   /* position: relative; */
 }
-.imgwraper{
-  position:relative;
+.imgwraper {
+  position: relative;
   top: -450px;
-  
 }
-.imgwraper>img {
+.imgwraper > img {
   width: 300px;
   height: 300px;
   transform: rotate(-10deg);
 }
 #menu_toggle:checked ~ .imgwraper {
-  visibility:hidden;
-  }
-.visib_hidden{
+  visibility: hidden;
+}
+.visib_hidden {
   /* display: none; */
   visibility: hidden;
+}
+
+.marqueemark > div > img {
+  margin-left: 10px;
+}
+
+/* Бігуча стрічка марок */
+.marqueemark {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.marqueemark div {
+  display: inline-block;
+  padding-left: 100%;
+  -webkit-animation: marquee 22s infinite linear;
+  animation: marquee 16s infinite linear;
+}
+
+@-webkit-keyframes marqueemark {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+  }
+}
+@keyframes marqueemark {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
 }

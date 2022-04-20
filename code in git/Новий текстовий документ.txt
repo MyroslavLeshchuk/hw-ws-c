@@ -1,4 +1,4 @@
-
+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
 Myroslav@HOME-PC MINGW64 /d/modul-git (master)
 $ ls
 first-file.txt

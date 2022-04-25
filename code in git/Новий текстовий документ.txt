@@ -1,3 +1,6 @@
+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
+
+
 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
 Myroslav@HOME-PC MINGW64 /d/modul-git (master)
 $ ls
